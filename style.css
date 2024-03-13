@@ -86,7 +86,7 @@ header{
 }
 
 .home {
-    background-image: url('./assets/img/comida-brasileira.avif');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('./assets/img/comida-brasileira.avif');
     background-size: cover;
     background-attachment: fixed;
     background-color: #000;
@@ -99,20 +99,6 @@ header{
     justify-content: center;
 }
 
-.conteudo {
-    position: relative;
-    z-index: 1; 
-}
-
-.home::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-}
 
 .home h1 {
     font-size: 3em;
@@ -153,7 +139,6 @@ header{
     font-size: 1em;
     font-family: "Roboto", sans-serif;
     color: #757575;
-    text-indent:10px;
     text-align: justify;
     margin-bottom: 4rem;
     margin-left: 5rem;
@@ -236,6 +221,7 @@ header{
     display: block;
     margin: auto;
     border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 
@@ -245,7 +231,7 @@ header{
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,7 +320,7 @@ footer {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url('./assets/img/fundo3.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('./assets/img/fundo3.webp');
     background-size: cover;
     padding: 10px;
     background-color: #000;
@@ -535,7 +521,13 @@ footer h5 {
         font-size: 0.8rem;
     }
 
+    .whats img{
+        width: 40px;
+    }
 
+    #btnToTop {
+        width: 40px;
+    }
 }
 
 
