@@ -77,10 +77,6 @@ header{
     display: none;
 }
 
-.icon {
-    margin-top: 10px;
-}
-
 .mobile-menu {
     display: none;
 }
@@ -388,7 +384,7 @@ footer h5 {
 
 @media screen and (max-width: 800px){
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1.1rem 3rem;
     }
     .nav-item {
         display: none;
@@ -438,6 +434,13 @@ footer h5 {
     .mobile-menu .redes img {
         margin-right: 5px;
     }
+
+    .mobile-menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 
     .home h1 {
         font-size: 2rem;
